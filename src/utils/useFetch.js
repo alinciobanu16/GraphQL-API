@@ -36,7 +36,6 @@ const useFetch = () => {
         if (!month) {
           return;
         }
-
         postsPerMonth[month] = postsPerMonth[month] + 1;
       });
       setPosts({
